@@ -1,0 +1,27 @@
+*{
+    -fx-base: #424242;
+}
+
+#PlayButton {
+    -fx-shape: "M 350 350 A 50 50 0 1 1 500 350 A 50 50 0 1 1 350 350";
+    -fx-background-repeat:no-repeat;
+    -fx-background-position:center;
+    -fx-background-size:50 36;
+}
+#NextSong{
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-size: 40 25;
+}
+#PreviousSong{
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-size: 40 25;
+
+}
+#StopButton {
+    -fx-shape: "M 350 350 A 50 50 0 1 1 500 350 A 50 50 0 1 1 350 350";
+    -fx-background-repeat:no-repeat;
+    -fx-background-position:center;
+    -fx-background-size:50 36;
+}

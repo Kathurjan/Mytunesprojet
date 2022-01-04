@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="scenePane" prefHeight="300.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.Controller.SongController">
+   <children>
+      <TextField fx:id="titleString" layoutX="112.0" layoutY="49.0" />
+      <TextField fx:id="artistString" layoutX="112.0" layoutY="85.0" />
+      <TextField fx:id="lengthOfSongString" editable="false" focusTraversable="false" layoutX="112.0" layoutY="121.0" prefHeight="26.0" prefWidth="78.0" />
+      <TextField fx:id="categoryString" layoutX="112.0" layoutY="157.0" />
+      <TextField fx:id="filePathString" editable="false" focusTraversable="false" layoutX="112.0" layoutY="197.0" prefHeight="25.0" prefWidth="220.0" />
+      <Button layoutX="332.0" layoutY="197.0" mnemonicParsing="false" onAction="#openFileMethod" text="Choose" />
+      <Button fx:id="close" layoutX="112.0" layoutY="242.0" mnemonicParsing="false" onAction="#closeSongViewMethod" text="Close" />
+      <Button layoutX="222.0" layoutY="242.0" mnemonicParsing="false" onAction="#addSongMethod" text="Save" />
+      <Label fx:id="ErrorSuccesLabel" alignment="CENTER" layoutX="101.0" layoutY="26.0" prefHeight="18.0" prefWidth="220.0" textAlignment="CENTER" />
+      <Label layoutX="36.0" layoutY="53.0" text="Title" />
+      <Label layoutX="36.0" layoutY="89.0" text="Author" />
+      <Label layoutX="35.0" layoutY="125.0" text="Time" />
+      <Text layoutX="36.0" layoutY="174.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Category" />
+      <Label layoutX="36.0" layoutY="201.0" text="Path" />
+   </children>
+</AnchorPane>
